@@ -1,0 +1,13 @@
+{
+    "name": "index-card",
+    "title": "Index Card - Add index cards to your scenes",
+    "description": "Add index cards to your scene.",
+    "author": "stargolum",
+    "version": "1.0.0",
+    "minimumCoreVersion": "0.7.9",
+    "languages": {
+        "lang": "en",
+        "name": "English",
+        "path": "lang/en.json"
+    }
+}
