@@ -14,5 +14,6 @@
     "url": "https://github.com/spacegiant/index-card",
     "bugs": "https://github.com/spacegiant/index-card/issues",
     "manifest": "https://raw.githubusercontent.com/spacegiant/index-card/main/module.json",
-    "download": "https://github.com/spacegiant/index-card/archive/v0.0.1.zip"
+    "download": "https://github.com/spacegiant/index-card/archive/v0.0.1.zip",
+    "scripts": ["./scripts/indexCard.js"]
 }
