@@ -3,13 +3,16 @@
     "title": "Index Card - Add index cards to your scenes",
     "description": "Add index cards to your scene.",
     "author": "stargolum",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "minimumCoreVersion": "0.7.9",
+    "compatibleCoreVersion": "0.7.9",
     "languages": {
         "lang": "en",
         "name": "English",
         "path": "lang/en.json"
     },
     "url": "https://github.com/spacegiant/index-card",
-    "bugs": "https://github.com/spacegiant/index-card/issues"
+    "bugs": "https://github.com/spacegiant/index-card/issues",
+    "manifest": "https://github.com/spacegiant/index-card/main/module.json",
+    "download": "https://github.com/spacegiant/index-card/archive/v0.0.1.zip"
 }
