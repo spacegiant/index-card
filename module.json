@@ -1,6 +1,6 @@
 {
     "name": "index-card",
-    "title": "Index Card - Add index cards to your scenes",
+    "title": "Index Card",
     "description": "Add index cards to your scene.",
     "author": "stargolum",
     "version": "0.0.1",
@@ -13,6 +13,6 @@
     },
     "url": "https://github.com/spacegiant/index-card",
     "bugs": "https://github.com/spacegiant/index-card/issues",
-    "manifest": "https://github.com/spacegiant/index-card/main/module.json",
+    "manifest": "https://raw.githubusercontent.com/spacegiant/index-card/main/module.json",
     "download": "https://github.com/spacegiant/index-card/archive/v0.0.1.zip"
 }
