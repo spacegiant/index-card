@@ -1,5 +1,5 @@
 // TODO: Create IndexCard class and pass in to IndexCardsLayer Class
-
+import IndexCard from "./IndexCard";
 
 class IndexCardsLayer extends PlaceablesLayer {
     static get layerOptions() {
@@ -13,7 +13,7 @@ class IndexCardsLayer extends PlaceablesLayer {
     }
 };
 
-Hooks.once("init", function() {
+Hooks.on("init", function() {
     console.log("This code runs once the Foundry VTT software begins it's initialization workflow.");
     game.settings.register('IndexCardsLayer', 'indexCardsTest', {
         name: "Index Cards",
@@ -29,11 +29,6 @@ Hooks.once("init", function() {
         default: 50,
         onChange: () => {}
     });
-});
-
-
-Hooks.on("init", function() {
-    console.log("This code runs once the Foundry VTT software begins it's initialization workflow.");
 });
 
 Hooks.once('canvasInit', () => {
